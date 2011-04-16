@@ -1,0 +1,30 @@
+--- #YAML:1.0
+name:               Parse-FSM
+version:            1.00
+abstract:           Deterministic top-down parser based on a Finite State Machine
+author:
+    - Paulo Custodio <pscust@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Capture::Tiny:      0.1
+    Class::XSAccessor:  1.11
+    Data::Dump:         1.19
+    File::Slurp:        9999.15
+    File::Spec:         3.33
+    File::Temp:         0.22
+    Test::More:         0.96
+    Text::Balanced:     2.02
+    Text::Template:     1.45
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
