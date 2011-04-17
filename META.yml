@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Parse-FSM
-version:            1.00
+version:            1.01
 abstract:           Deterministic top-down parser based on a Finite State Machine
 author:
     - Paulo Custodio <pscust@cpan.org>
