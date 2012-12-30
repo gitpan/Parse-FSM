@@ -1,30 +1,30 @@
---- #YAML:1.0
-name:               Parse-FSM
-version:            1.02
-abstract:           Deterministic top-down parser based on a Finite State Machine
+---
+abstract: 'Deterministic top-down parser based on a Finite State Machine'
 author:
-    - Paulo Custodio <pscust@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Paulo Custodio <pscust@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Capture::Tiny:      0.1
-    Class::XSAccessor:  1.11
-    Data::Dump:         1.19
-    File::Slurp:        9999.15
-    File::Spec:         3.33
-    File::Temp:         0.22
-    Test::More:         0.96
-    Text::Balanced:     2.02
-    Text::Template:     1.45
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Parse-FSM
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Capture::Tiny: 0.1
+  Class::XSAccessor: 1.11
+  Data::Dump: 1.19
+  File::Slurp: 9999.15
+  File::Spec: 3.33
+  File::Temp: 0.22
+  Test::More: 0.96
+  Text::Balanced: 2.02
+  Text::Template: 1.45
+version: 1.03

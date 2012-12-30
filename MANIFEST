@@ -35,4 +35,5 @@ t/pod-coverage.t
 t/pod.t
 t/utils.pl
 tools/build_parser.pl
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
