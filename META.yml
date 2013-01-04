@@ -27,4 +27,4 @@ requires:
   Test::More: 0.96
   Text::Balanced: 2.02
   Text::Template: 1.45
-version: 1.04
+version: 1.05
